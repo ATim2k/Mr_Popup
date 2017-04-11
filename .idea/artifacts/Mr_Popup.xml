@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Mr_Popup">
+    <output-path>$PROJECT_DIR$/nukkit/plugins</output-path>
+    <root id="archive" name="Mr_Popup.jar">
+      <element id="module-output" name="Mr_Popup" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="dir-copy" path="$PROJECT_DIR$/resources" />
+    </root>
+  </artifact>
+</component>

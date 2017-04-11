@@ -1,0 +1,470 @@
+2017-2-6 15:21:14 [INFO] Loading nukkit.yml...
+2017-2-6 15:21:14 [INFO] Loading server properties...
+2017-2-6 15:21:14 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2017-2-6 15:21:14 [INFO] 正在启动支持 Minecraft: PE v1.0.0 版本的服务器
+2017-2-6 15:21:15 [INFO] 正在启动服务器在 0.0.0.0:19132
+2017-2-6 15:21:15 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2017-2-6 15:21:15 [INFO] Nukkit 根据 LGPL 许可发行
+2017-2-6 15:21:15 [INFO] 读取中... Money v1.6.1
+2017-2-6 15:21:15 [INFO] 读取中... Mr_Popup v1.3.1
+2017-2-6 15:21:15 [INFO] 开启中... Money v1.6.1
+2017-2-6 15:21:15 [INFO] 准备地图中... "world"
+2017-2-6 15:21:15 [INFO] 开启中... Mr_Popup v1.3.1
+2017-2-6 15:21:15 [INFO] [Mr_Popup] 插件加载成功,本插件作者Mr_sky,zxda-uid:9886(贱哥啊哈哈)
+2017-2-6 15:21:15 [INFO] [Mr_Popup] 本插件测试服务器由Greaty云提供,版主QQ2635435377
+2017-2-6 15:21:15 [INFO] 启动 GS4 状态监听器
+2017-2-6 15:21:15 [INFO] 将 Query 端口设定为 19132
+2017-2-6 15:21:15 [INFO] Query 运行在 0.0.0.0:19132
+2017-2-6 15:21:15 [INFO] 默认的游戏模式为：生存模式
+2017-2-6 15:21:15 [INFO] 启动完成 (0.966s)！如需帮助，请输入 "help" 或 "?"
+2017-2-6 15:21:35 [INFO] Mr_sky[/192.168.1.100:19132] 登入游戏，实体 ID 为 1，坐标位于 (world, 103.432, 58.0979, 125.5515)
+2017-2-6 15:21:35 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:36 [INFO] Mr_sky 加入了游戏
+2017-2-6 15:21:36 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:37 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:38 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:39 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:40 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:41 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:42 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:43 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:44 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:45 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:46 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:47 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:48 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:49 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:50 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:51 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:52 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:53 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:21:54 [INFO] Mr_sky 离开了游戏
+2017-2-6 15:21:54 [INFO] Mr_sky[/192.168.1.100:19132] 登出游戏，原因： client disconnect
+2017-2-6 15:22:24 [INFO] [CONSOLE: 重新读取服务器...]
+2017-2-6 15:22:24 [INFO] Reloading...
+2017-2-6 15:22:24 [INFO] Saving levels...
+2017-2-6 15:22:24 [INFO] 关闭中... Mr_Popup v1.3.1
+2017-2-6 15:22:24 [INFO] 关闭中... Money v1.6.1
+2017-2-6 15:22:24 [INFO] Reloading properties...
+2017-2-6 15:22:24 [INFO] 读取中... Money v1.6.1
+2017-2-6 15:22:24 [INFO] 读取中... Mr_Popup v1.3.1
+2017-2-6 15:22:24 [INFO] 开启中... Money v1.6.1
+2017-2-6 15:22:24 [INFO] 开启中... Mr_Popup v1.3.1
+2017-2-6 15:22:24 [INFO] [Mr_Popup] 插件加载成功,本插件作者Mr_sky,zxda-uid:9886(贱哥啊哈哈)
+2017-2-6 15:22:24 [INFO] [Mr_Popup] 本插件测试服务器由Greaty云提供,版主QQ2635435377
+2017-2-6 15:22:24 [INFO] [CONSOLE: 重新读取完成]
+2017-2-6 15:22:39 [INFO] Mr_sky[/192.168.1.100:19132] 登入游戏，实体 ID 为 2，坐标位于 (world, 103.432, 58.0979, 125.5515)
+2017-2-6 15:22:40 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:40 [INFO] Mr_sky 加入了游戏
+2017-2-6 15:22:41 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:42 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:43 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:44 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:45 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:46 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:47 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:48 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:49 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:50 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:51 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:52 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:53 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:54 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:55 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 15:22:56 [CRITICAL] Exception while invoking run
+java.lang.NullPointerException
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+

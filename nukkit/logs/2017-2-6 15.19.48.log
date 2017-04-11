@@ -1,0 +1,349 @@
+2017-2-6 15:18:12 [INFO] Welcome! Please choose a language first!
+2017-2-6 15:18:12 [INFO] eng => English
+2017-2-6 15:18:12 [INFO] chs => 中文（简体）
+2017-2-6 15:18:12 [INFO] cht => 中文（繁體）
+2017-2-6 15:18:12 [INFO] jpn => 日本語
+2017-2-6 15:18:12 [INFO] rus => Pyccĸий
+2017-2-6 15:18:12 [INFO] spa => Español
+2017-2-6 15:18:12 [INFO] pol => Polish
+2017-2-6 15:18:12 [INFO] bra => Português-Brasil
+2017-2-6 15:18:12 [INFO] kor => 한국어
+2017-2-6 15:18:12 [INFO] ukr => Українська
+2017-2-6 15:18:12 [INFO] deu => Deutsch
+2017-2-6 15:18:15 [INFO] Loading nukkit.yml...
+2017-2-6 15:18:16 [INFO] Loading server properties...
+2017-2-6 15:18:16 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2017-2-6 15:18:16 [INFO] 正在启动支持 Minecraft: PE v1.0.0 版本的服务器
+2017-2-6 15:18:16 [INFO] 正在启动服务器在 0.0.0.0:19132
+2017-2-6 15:18:16 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2017-2-6 15:18:16 [INFO] Nukkit 根据 LGPL 许可发行
+2017-2-6 15:18:16 [INFO] 读取中... Mr_Popup v1.3.1
+2017-2-6 15:18:16 [NOTICE] 无法找到地图 "world"
+2017-2-6 15:18:16 [INFO] nukkit.level.updating
+2017-2-6 15:18:16 [INFO] 准备地图中... "world"
+2017-2-6 15:18:16 [INFO] 开启中... Mr_Popup v1.3.1
+2017-2-6 15:18:16 [INFO] [Mr_Popup] 插件加载成功,本插件作者Mr_sky,zxda-uid:9886(贱哥啊哈哈)
+2017-2-6 15:18:16 [INFO] [Mr_Popup] 本插件测试服务器由Greaty云提供,版主QQ2635435377
+2017-2-6 15:18:16 [INFO] 启动 GS4 状态监听器
+2017-2-6 15:18:16 [INFO] 将 Query 端口设定为 19132
+2017-2-6 15:18:16 [INFO] Query 运行在 0.0.0.0:19132
+2017-2-6 15:18:16 [INFO] 默认的游戏模式为：生存模式
+2017-2-6 15:18:16 [INFO] 启动完成 (4.994s)！如需帮助，请输入 "help" 或 "?"
+2017-2-6 15:19:27 [NOTICE] 无法找到玩家数据 "mr_sky"，正在创建新的数据
+2017-2-6 15:19:27 [INFO] Mr_sky[/192.168.1.100:19132] 登入游戏，实体 ID 为 1，坐标位于 (world, 128.0, 70.0, 128.0)
+2017-2-6 15:19:28 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:28 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: money.MoneyAPI
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at cn.nukkit.plugin.PluginClassLoader.findClass(PluginClassLoader.java:44)
+	at cn.nukkit.plugin.PluginClassLoader.findClass(PluginClassLoader.java:28)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 9 more
+
+2017-2-6 15:19:29 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:29 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:30 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:30 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:30 [INFO] Mr_sky 加入了游戏
+2017-2-6 15:19:31 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:31 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:32 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:32 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:33 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:33 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:34 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:34 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:35 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:35 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:36 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:36 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:37 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:37 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:38 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:38 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:39 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:39 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:40 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:40 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:41 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:41 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:42 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:42 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:43 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:43 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:44 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:44 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:45 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:45 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:45 [INFO] 未知的指令。请使用 /help 来显示指令列表。
+2017-2-6 15:19:46 [INFO] 未知的指令。请使用 /help 来显示指令列表。
+2017-2-6 15:19:46 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:46 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:47 [CRITICAL] Could not execute taskHandler 7: money/MoneyAPI
+2017-2-6 15:19:47 [ALERT] java.lang.RuntimeException: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:211)
+	at cn.nukkit.Server.tick(Server.java:996)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NoClassDefFoundError: money/MoneyAPI
+	at top.ascserver.mr_popup.Mr_Popup.onRun(Mr_Popup.java:41)
+	at cn.nukkit.scheduler.ServerScheduler.lambda$addTask$54(ServerScheduler.java:165)
+	at cn.nukkit.scheduler.TaskHandler.run(TaskHandler.java:99)
+	at cn.nukkit.scheduler.ServerScheduler.mainThreadHeartbeat(ServerScheduler.java:208)
+	... 5 more
+
+2017-2-6 15:19:48 [INFO] [CONSOLE: 正在关闭服务器]
+2017-2-6 15:19:48 [INFO] 关闭中... Mr_Popup v1.3.1
+2017-2-6 15:19:48 [INFO] Mr_sky 离开了游戏
+2017-2-6 15:19:48 [INFO] Mr_sky[/192.168.1.100:19132] 登出游戏，原因： 服务器已关闭
+2017-2-6 15:19:48 [INFO] 正在移除地图 "world"
+2017-2-6 15:19:48 [INFO] Stopping other threads

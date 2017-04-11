@@ -1,0 +1,11 @@
+底部显示: '玩家名: {player}地图名: {level}全球定位系统 {gps}{n}手拿物品{id}模式{GM}'
+#底部显示模块
+#玩家{player} 地图{level} 坐标{gps} X坐标{X} Y坐标{Y} Z坐标{Z} 换行{n} 手上物品{id} 模式{GM} 权限{QX} 时间{time} 金钱{money} 点券{point} 在线人数{online} 最大在线人数{maxplayer} 生命值{heal} 最大生命值{maxheal} 伴侣{love}
+#可以拿{n}换行把底部抬上去噢!
+#金钱的API是HIM188大大的Money插件,请配合Money使用!
+生存模式: '生存'
+创造模式: '创造'
+冒险模式: '冒险'
+旁观模式: '旁观'
+OP: '管理'
+玩家: '玩家'

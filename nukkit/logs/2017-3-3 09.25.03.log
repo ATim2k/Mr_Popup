@@ -1,0 +1,40 @@
+2017-3-3 09:24:52 [INFO] Loading nukkit.yml...
+2017-3-3 09:24:52 [INFO] Loading server properties...
+2017-3-3 09:24:52 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2017-3-3 09:24:52 [INFO] 正在启动支持 Minecraft: PE v1.0.0 版本的服务器
+2017-3-3 09:24:52 [INFO] 正在启动服务器在 0.0.0.0:19132
+2017-3-3 09:24:52 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2017-3-3 09:24:52 [INFO] Nukkit 根据 LGPL 许可发行
+2017-3-3 09:24:53 [INFO] 读取中... Money v1.6.1
+2017-3-3 09:24:53 [INFO] 读取中... Mr_Popup v1.3.5
+2017-3-3 09:24:53 [INFO] 读取中... Zchat v1.0.0
+2017-3-3 09:24:53 [INFO] 开启中... Money v1.6.1
+2017-3-3 09:24:53 [INFO] 准备地图中... "world"
+2017-3-3 09:24:53 [INFO] 开启中... Mr_Popup v1.3.5
+2017-3-3 09:24:53 [ALERT] java.lang.RuntimeException: java.lang.NullPointerException
+	at cn.nukkit.plugin.PluginManager.enablePlugin(PluginManager.java:450)
+	at cn.nukkit.Server.enablePlugin(Server.java:623)
+	at cn.nukkit.Server.enablePlugins(Server.java:612)
+	at cn.nukkit.Server.<init>(Server.java:459)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.NullPointerException
+	at top.ascserver.mr_popup.update.updateCheck(update.java:25)
+	at top.ascserver.mr_popup.Timers.onEnable(Timers.java:21)
+	at cn.nukkit.plugin.PluginBase.setEnabled(PluginBase.java:89)
+	at cn.nukkit.plugin.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:119)
+	at cn.nukkit.plugin.PluginManager.enablePlugin(PluginManager.java:446)
+	... 4 more
+
+2017-3-3 09:24:53 [INFO] 关闭中... Mr_Popup v1.3.5
+2017-3-3 09:24:53 [INFO] 开启中... Zchat v1.0.0
+2017-3-3 09:24:53 [INFO] 插件加载，by:zixuan
+2017-3-3 09:24:53 [INFO] 启动 GS4 状态监听器
+2017-3-3 09:24:53 [INFO] 将 Query 端口设定为 19132
+2017-3-3 09:24:53 [INFO] Query 运行在 0.0.0.0:19132
+2017-3-3 09:24:53 [INFO] 默认的游戏模式为：生存模式
+2017-3-3 09:24:53 [INFO] 启动完成 (1.299s)！如需帮助，请输入 "help" 或 "?"
+2017-3-3 09:25:02 [INFO] [CONSOLE: 正在关闭服务器]
+2017-3-3 09:25:02 [INFO] 关闭中... Zchat v1.0.0
+2017-3-3 09:25:02 [INFO] 关闭中... Money v1.6.1
+2017-3-3 09:25:02 [INFO] 正在移除地图 "world"
+2017-3-3 09:25:03 [INFO] Stopping other threads

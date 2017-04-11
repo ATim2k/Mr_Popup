@@ -1,0 +1,182 @@
+2017-2-6 17:06:10 [INFO] Loading nukkit.yml...
+2017-2-6 17:06:10 [INFO] Loading server properties...
+2017-2-6 17:06:10 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2017-2-6 17:06:10 [INFO] 正在启动支持 Minecraft: PE v1.0.0 版本的服务器
+2017-2-6 17:06:10 [INFO] 正在启动服务器在 0.0.0.0:19132
+2017-2-6 17:06:10 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2017-2-6 17:06:10 [INFO] Nukkit 根据 LGPL 许可发行
+2017-2-6 17:06:11 [INFO] 读取中... Money v1.6.1
+2017-2-6 17:06:11 [INFO] 读取中... Mr_Popup v1.3.1
+2017-2-6 17:06:11 [INFO] 开启中... Money v1.6.1
+2017-2-6 17:06:11 [INFO] 准备地图中... "world"
+2017-2-6 17:06:11 [INFO] 开启中... Mr_Popup v1.3.1
+2017-2-6 17:06:11 [INFO] [Mr_Popup] 插件加载成功,本插件作者Mr_sky,zxda-uid:9886(贱哥啊哈哈)
+2017-2-6 17:06:11 [INFO] [Mr_Popup] 本插件测试服务器由Greaty云提供,版主QQ2635435377
+2017-2-6 17:06:11 [INFO] 启动 GS4 状态监听器
+2017-2-6 17:06:11 [INFO] 将 Query 端口设定为 19132
+2017-2-6 17:06:11 [INFO] Query 运行在 0.0.0.0:19132
+2017-2-6 17:06:11 [INFO] 默认的游戏模式为：生存模式
+2017-2-6 17:06:11 [INFO] 启动完成 (1.001s)！如需帮助，请输入 "help" 或 "?"
+2017-2-6 17:06:51 [INFO] Mr_sky[/192.168.1.101:19132] 登入游戏，实体 ID 为 1，坐标位于 (world, -0.1366, 67.0, 123.5096)
+2017-2-6 17:06:52 [INFO] Mr_sky 加入了游戏
+2017-2-6 17:07:00 [CRITICAL] 于 popup 执行指令 "popup" 时，出现了未被处理的错误： java.lang.ArrayIndexOutOfBoundsException: 0
+	at top.ascserver.mr_popup.Timers.onCommand(Timers.java:38)
+	at cn.nukkit.command.PluginCommand.execute(PluginCommand.java:33)
+	at cn.nukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:225)
+	at cn.nukkit.Server.dispatchCommand(Server.java:635)
+	at cn.nukkit.Player.handleDataPacket(Player.java:2886)
+	at cn.nukkit.network.Network.processPackets(Network.java:185)
+	at cn.nukkit.network.Network.processBatch(Network.java:156)
+	at cn.nukkit.Player.handleDataPacket(Player.java:1879)
+	at cn.nukkit.network.RakNetInterface.handleEncapsulated(RakNetInterface.java:154)
+	at cn.nukkit.raknet.server.ServerHandler.handlePacket(ServerHandler.java:123)
+	at cn.nukkit.network.RakNetInterface.process(RakNetInterface.java:63)
+	at cn.nukkit.network.Network.processInterfaces(Network.java:76)
+	at cn.nukkit.Server.tick(Server.java:988)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 17:07:00 [ALERT] java.lang.ArrayIndexOutOfBoundsException: 0
+	at top.ascserver.mr_popup.Timers.onCommand(Timers.java:38)
+	at cn.nukkit.command.PluginCommand.execute(PluginCommand.java:33)
+	at cn.nukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:225)
+	at cn.nukkit.Server.dispatchCommand(Server.java:635)
+	at cn.nukkit.Player.handleDataPacket(Player.java:2886)
+	at cn.nukkit.network.Network.processPackets(Network.java:185)
+	at cn.nukkit.network.Network.processBatch(Network.java:156)
+	at cn.nukkit.Player.handleDataPacket(Player.java:1879)
+	at cn.nukkit.network.RakNetInterface.handleEncapsulated(RakNetInterface.java:154)
+	at cn.nukkit.raknet.server.ServerHandler.handlePacket(ServerHandler.java:123)
+	at cn.nukkit.network.RakNetInterface.process(RakNetInterface.java:63)
+	at cn.nukkit.network.Network.processInterfaces(Network.java:76)
+	at cn.nukkit.Server.tick(Server.java:988)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 17:09:21 [INFO] [CONSOLE: 重新读取服务器...]
+2017-2-6 17:09:21 [INFO] Reloading...
+2017-2-6 17:09:21 [INFO] Saving levels...
+2017-2-6 17:09:21 [INFO] 关闭中... Mr_Popup v1.3.1
+2017-2-6 17:09:21 [INFO] 关闭中... Money v1.6.1
+2017-2-6 17:09:21 [INFO] Reloading properties...
+2017-2-6 17:09:21 [INFO] 读取中... Money v1.6.1
+2017-2-6 17:09:21 [INFO] 读取中... Mr_Popup v1.3.1
+2017-2-6 17:09:21 [INFO] 开启中... Money v1.6.1
+2017-2-6 17:09:21 [INFO] 开启中... Mr_Popup v1.3.1
+2017-2-6 17:09:21 [INFO] [Mr_Popup] 插件加载成功,本插件作者Mr_sky,zxda-uid:9886(贱哥啊哈哈)
+2017-2-6 17:09:21 [INFO] [Mr_Popup] 本插件测试服务器由Greaty云提供,版主QQ2635435377
+2017-2-6 17:09:22 [INFO] [CONSOLE: 重新读取完成]
+2017-2-6 17:09:28 [CRITICAL] 于 popup 执行指令 "popup" 时，出现了未被处理的错误： java.lang.ArrayIndexOutOfBoundsException: 0
+	at top.ascserver.mr_popup.Timers.onCommand(Timers.java:33)
+	at cn.nukkit.command.PluginCommand.execute(PluginCommand.java:33)
+	at cn.nukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:225)
+	at cn.nukkit.Server.dispatchCommand(Server.java:635)
+	at cn.nukkit.Player.handleDataPacket(Player.java:2886)
+	at cn.nukkit.network.Network.processPackets(Network.java:185)
+	at cn.nukkit.network.Network.processBatch(Network.java:156)
+	at cn.nukkit.Player.handleDataPacket(Player.java:1879)
+	at cn.nukkit.network.RakNetInterface.handleEncapsulated(RakNetInterface.java:154)
+	at cn.nukkit.raknet.server.ServerHandler.handlePacket(ServerHandler.java:123)
+	at cn.nukkit.network.RakNetInterface.process(RakNetInterface.java:63)
+	at cn.nukkit.network.Network.processInterfaces(Network.java:76)
+	at cn.nukkit.Server.tick(Server.java:988)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 17:09:28 [ALERT] java.lang.ArrayIndexOutOfBoundsException: 0
+	at top.ascserver.mr_popup.Timers.onCommand(Timers.java:33)
+	at cn.nukkit.command.PluginCommand.execute(PluginCommand.java:33)
+	at cn.nukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:225)
+	at cn.nukkit.Server.dispatchCommand(Server.java:635)
+	at cn.nukkit.Player.handleDataPacket(Player.java:2886)
+	at cn.nukkit.network.Network.processPackets(Network.java:185)
+	at cn.nukkit.network.Network.processBatch(Network.java:156)
+	at cn.nukkit.Player.handleDataPacket(Player.java:1879)
+	at cn.nukkit.network.RakNetInterface.handleEncapsulated(RakNetInterface.java:154)
+	at cn.nukkit.raknet.server.ServerHandler.handlePacket(ServerHandler.java:123)
+	at cn.nukkit.network.RakNetInterface.process(RakNetInterface.java:63)
+	at cn.nukkit.network.Network.processInterfaces(Network.java:76)
+	at cn.nukkit.Server.tick(Server.java:988)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 17:11:22 [INFO] 未知的指令。请使用 /help 来显示指令列表。
+2017-2-6 17:11:25 [INFO] [CONSOLE: 重新读取服务器...]
+2017-2-6 17:11:25 [INFO] Reloading...
+2017-2-6 17:11:25 [INFO] Saving levels...
+2017-2-6 17:11:25 [INFO] 关闭中... Mr_Popup v1.3.1
+2017-2-6 17:11:25 [INFO] 关闭中... Money v1.6.1
+2017-2-6 17:11:25 [INFO] Reloading properties...
+2017-2-6 17:11:25 [INFO] 读取中... Money v1.6.1
+2017-2-6 17:11:25 [INFO] 读取中... Mr_Popup v1.3.1
+2017-2-6 17:11:25 [INFO] 开启中... Money v1.6.1
+2017-2-6 17:11:25 [INFO] 开启中... Mr_Popup v1.3.1
+2017-2-6 17:11:25 [INFO] [Mr_Popup] 插件加载成功,本插件作者Mr_sky,zxda-uid:9886(贱哥啊哈哈)
+2017-2-6 17:11:25 [INFO] [Mr_Popup] 本插件测试服务器由Greaty云提供,版主QQ2635435377
+2017-2-6 17:11:25 [INFO] [CONSOLE: 重新读取完成]
+2017-2-6 17:12:05 [CRITICAL] 于 popup 执行指令 "popup world" 时，出现了未被处理的错误： java.lang.ArrayIndexOutOfBoundsException: 1
+	at top.ascserver.mr_popup.Timers.onCommand(Timers.java:49)
+	at cn.nukkit.command.PluginCommand.execute(PluginCommand.java:33)
+	at cn.nukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:225)
+	at cn.nukkit.Server.dispatchCommand(Server.java:635)
+	at cn.nukkit.Player.handleDataPacket(Player.java:2886)
+	at cn.nukkit.network.Network.processPackets(Network.java:185)
+	at cn.nukkit.network.Network.processBatch(Network.java:156)
+	at cn.nukkit.Player.handleDataPacket(Player.java:1879)
+	at cn.nukkit.network.RakNetInterface.handleEncapsulated(RakNetInterface.java:154)
+	at cn.nukkit.raknet.server.ServerHandler.handlePacket(ServerHandler.java:123)
+	at cn.nukkit.network.RakNetInterface.process(RakNetInterface.java:63)
+	at cn.nukkit.network.Network.processInterfaces(Network.java:76)
+	at cn.nukkit.Server.tick(Server.java:988)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 17:12:05 [ALERT] java.lang.ArrayIndexOutOfBoundsException: 1
+	at top.ascserver.mr_popup.Timers.onCommand(Timers.java:49)
+	at cn.nukkit.command.PluginCommand.execute(PluginCommand.java:33)
+	at cn.nukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:225)
+	at cn.nukkit.Server.dispatchCommand(Server.java:635)
+	at cn.nukkit.Player.handleDataPacket(Player.java:2886)
+	at cn.nukkit.network.Network.processPackets(Network.java:185)
+	at cn.nukkit.network.Network.processBatch(Network.java:156)
+	at cn.nukkit.Player.handleDataPacket(Player.java:1879)
+	at cn.nukkit.network.RakNetInterface.handleEncapsulated(RakNetInterface.java:154)
+	at cn.nukkit.raknet.server.ServerHandler.handlePacket(ServerHandler.java:123)
+	at cn.nukkit.network.RakNetInterface.process(RakNetInterface.java:63)
+	at cn.nukkit.network.Network.processInterfaces(Network.java:76)
+	at cn.nukkit.Server.tick(Server.java:988)
+	at cn.nukkit.Server.tickProcessor(Server.java:791)
+	at cn.nukkit.Server.start(Server.java:770)
+	at cn.nukkit.Server.<init>(Server.java:461)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+
+2017-2-6 17:12:28 [INFO] [CONSOLE: 重新读取服务器...]
+2017-2-6 17:12:28 [INFO] Reloading...
+2017-2-6 17:12:28 [INFO] Saving levels...
+2017-2-6 17:12:28 [INFO] 关闭中... Mr_Popup v1.3.1
+2017-2-6 17:12:28 [INFO] 关闭中... Money v1.6.1
+2017-2-6 17:12:28 [INFO] Reloading properties...
+2017-2-6 17:12:28 [INFO] 读取中... Money v1.6.1
+2017-2-6 17:12:28 [INFO] 读取中... Mr_Popup v1.3.1
+2017-2-6 17:12:28 [INFO] 开启中... Money v1.6.1
+2017-2-6 17:12:28 [INFO] 开启中... Mr_Popup v1.3.1
+2017-2-6 17:12:28 [INFO] [Mr_Popup] 插件加载成功,本插件作者Mr_sky,zxda-uid:9886(贱哥啊哈哈)
+2017-2-6 17:12:28 [INFO] [Mr_Popup] 本插件测试服务器由Greaty云提供,版主QQ2635435377
+2017-2-6 17:12:28 [INFO] [CONSOLE: 重新读取完成]
+2017-2-6 17:13:03 [INFO] [CONSOLE: 正在关闭服务器]
+2017-2-6 17:13:03 [INFO] 关闭中... Mr_Popup v1.3.1
+2017-2-6 17:13:03 [INFO] 关闭中... Money v1.6.1
+2017-2-6 17:13:03 [INFO] Mr_sky 离开了游戏
+2017-2-6 17:13:03 [INFO] Mr_sky[/192.168.1.101:19132] 登出游戏，原因： 服务器已关闭
+2017-2-6 17:13:03 [INFO] 正在移除地图 "world"
+2017-2-6 17:13:03 [INFO] Stopping other threads
